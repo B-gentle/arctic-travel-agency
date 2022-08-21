@@ -1,0 +1,73 @@
+.sponsorship {
+    background-color: #F8F9FC;
+    padding-top: 6.05rem;
+}
+
+.sponsor-logos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8rem;
+    color: #CCCCCC;
+    font-size: 5rem;
+}
+
+.payment {
+    margin-top: 2rem;
+    padding: 2rem 268px 7rem 267px;
+    background: url(../../assets/world.svg);
+    background-position: center top;
+}
+
+.payment h3 {
+    font-weight: 600;
+    font-size: 2.5rem;
+    text-align: center;
+    line-height: 1;
+}
+
+.payment h3 span {
+    color: #3E86F5;
+}
+
+.payment h5 {
+    font-weight: 400;
+    font-size: 1.5rem;
+    margin-top: 37px;
+    margin-bottom: 8rem;
+}
+
+@media screen and (max-width : 480px) {
+    .sponsorship {
+        padding-top: 340px;
+    }
+
+    .sponsor-logos {
+        overflow-x: scroll;
+       gap: 3rem;
+       justify-content:flex-start;
+
+    }
+
+    .sponsor-logos::-webkit-scrollbar{
+        display: none;
+    }
+
+    .sponsor-logos img{
+       flex-basis: 78px;
+    }
+
+
+    .payment{
+        padding: 2rem 39px 7rem 38px;
+    }
+
+    .payment h3{
+        font-size: 1.35rem;
+        line-height: 1.5;
+    }
+
+    .payment h5{
+        font-size: 0.88rem;
+    }
+}

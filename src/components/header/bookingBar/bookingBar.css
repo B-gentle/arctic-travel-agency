@@ -1,0 +1,64 @@
+.booking-bar {
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    border-radius: 1rem;
+    width: 80%;
+    padding: 28px 24px 16px 23px;
+    position: absolute;
+    top: 709px;
+    left: 120px;
+    box-shadow: 0px 134px 193px rgba(183, 183, 183, 0.07), 0px 16.7789px 24.1666px rgba(183, 183, 183, 0.035);
+}
+
+.booking-bar>span {
+    display: flex;
+    flex-direction: column;
+}
+
+.booking-bar .blue-icons span:nth-child(1) {
+    color: #3E86F5;
+}
+
+.booking-bar .blue-icons span:nth-child(2),
+.booking-bar .red-icons span:nth-child(2) {
+    color: #929191;
+    font-weight: 500;
+    font-size: 1rem;
+
+}
+
+.booking-bar .red-icons span:nth-child(1) {
+    color: #CC0024;
+
+}
+
+.book-trip-button {
+    padding: 1.28rem 2.44rem;
+    font-weight: 600;
+    size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+}
+
+@media screen and (max-width: 780px) {
+    .booking-bar {
+        flex-direction: column;
+        top: 458px;
+        left: 13px;
+    }
+
+.blue-icons,
+.red-icons{
+    text-align: left;
+}
+.blue-icons small,
+.red-icons small{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+}

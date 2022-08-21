@@ -1,0 +1,60 @@
+.ice-location {
+    display: flex;
+}
+
+.ice-location div {
+    height: 600px;
+    width: 500px;
+    position: relative;
+}
+
+.ice-location div:nth-child(1) {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url(../../assets/tourist-bag.png);
+    background-position: center;
+}
+
+.ice-location div:nth-child(2) {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url(../../assets/snowboarder-motion.png);
+    background-position: center;
+}
+
+.ice-location div:nth-child(3) {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url(../../assets/young-skier-motion.png);
+    background-position: center;
+}
+
+.ice-location div p {
+    transform: rotate(-90deg);
+    font-weight: 600;
+    font-size: 48px;
+    color: #FFFFFF;
+    white-space: nowrap;
+    position: absolute;
+    top: 260px;
+    left: 180px;
+}
+
+.ice-location div:nth-child(3) p {
+    position: absolute;
+    top: 230px;
+    left: 130px;
+}
+
+@media screen and (max-width:780px) {
+    .ice-location {
+        flex-direction: column;
+    }
+
+    .ice-location div{
+        width: 100%;
+        position: relative;
+    }
+
+    .ice-location div p,
+    .ice-location div:nth-child(3) p {
+        transform: rotate(360deg);
+        font-size: 2rem;
+        top: 471px;
+        left: 24px;
+    }
+}

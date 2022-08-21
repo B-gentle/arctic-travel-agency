@@ -1,0 +1,88 @@
+.footer nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem;
+    text-align: left;
+}
+
+.footer nav > div:nth-child(1) {
+    display: flex;
+    flex-direction: column;
+    line-height: 2;
+}
+
+.footer nav img {
+    width: 18.1px;
+    height: 19.05px;
+    border: 0.5px dashed #BEBEBE;
+    border-radius: 100%;
+    padding: 0.5rem;
+}
+
+.footer nav>div>div {
+    display: flex;
+    flex-direction: column;
+    width: 218px;
+}
+
+.footer nav>div>div>span:nth-child(1) {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.footer nav>div:nth-child(1)>div>span:nth-child(2) {
+    font-weight: 500;
+    font-size: 12px;
+    color: #000000B2;
+}
+
+.footer-icons{
+    display: flex;
+    gap: 2.5rem;
+    margin-top: 46px;
+}
+
+.footer-icons > *{
+    color: #3E86F5;
+    border: 0.3px solid #C1C0C0;
+    border-radius: 100%;
+    padding: 0.6rem;
+}
+
+.footer-note{
+    margin-top: 114px;
+    font-weight: 500;
+}
+
+.footer-note.note-2{
+    margin-top: 9.3rem;
+}
+
+.footer nav > div:nth-child(2){
+    display: flex;
+    gap: 7rem;
+    line-height: 3;
+}
+
+.footer nav > div:nth-child(2) > div{
+    line-height: 3;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.footer nav > div:nth-child(2) > div > main{
+    color: #3E86F5;
+    
+}
+
+@media screen and (max-width:780px) {
+    .footer nav{
+        flex-direction: column;
+    }
+
+    .footer nav > div:nth-child(2){
+        flex-wrap: wrap;
+        gap: 3rem;
+    }
+
+}
