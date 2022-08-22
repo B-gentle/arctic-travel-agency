@@ -44,7 +44,17 @@ const Footer = () => {
                         <span>Airfees</span>
                         <span>Lowfare Tips</span>
                     </div>
+
                 </div>
+
+                <span className='mobile-footer-icons'>
+                        <FaFacebookF />
+                        <FaInstagram />
+                        <FaTwitter />
+                    </span>
+
+
+                    <p className='footer-note mobile-note-1'>© 2022 Arctic Travels - All right reserved.</p>
             </nav>
 
         </div>

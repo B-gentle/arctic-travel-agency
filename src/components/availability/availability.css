@@ -24,6 +24,7 @@
 @media screen and (max-width:780px) {
     .availability {
         padding: 6.25rem 3.1rem 8.13rem 1.75rem;
+        background-position: center;
     }
 
     .availability h2 {
